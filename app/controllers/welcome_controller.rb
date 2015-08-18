@@ -6,5 +6,9 @@ class WelcomeController < ApplicationController
   end
 
   def about
+    @vacation = "Tahiti"
+
+  end
+  def faq
   end
 end

@@ -1,3 +1,4 @@
+$ cat db/migrate/20150802220513_create_posts.rb
 class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |t|

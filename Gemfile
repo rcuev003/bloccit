@@ -14,6 +14,9 @@ gem 'rails', '4.2.1'
    gem 'sqlite3'
  end
     gem 'pry-rails'
+group:development, :test do
+	gem 'rspec-rails', '~> 3.0'
+end
 # Use SCSS for stylesheets
 	gem 'bootstrap-sass'
 	gem 'sass-rails', '~> 5.0'
